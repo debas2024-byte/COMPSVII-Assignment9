@@ -1,1 +1,55 @@
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f5ff;
+  margin: 0;
+  padding: 30px;
+  text-align: center;
+}
+
+main {
+  max-width: 1000px;
+  margin: auto;
+}
+
+h1 {
+  color: #333;
+}
+
+form {
+  margin: 25px auto;
+}
+
+input {
+  padding: 12px;
+  margin: 5px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+button {
+  padding: 12px 20px;
+  background-color: #4b63d9;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #344bb3;
+}
+
+#gif-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+}
+
+#gif-container img {
+  width: 220px;
+  max-width: 100%;
+  border-radius: 10px;
+}
 /* Add any custom CSS stylings you want here */
